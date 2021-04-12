@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         Handler(mainLooper).postDelayed({
             findViewById<ShimmerFrameLayout>(R.id.shimmer_view_container).stopShimmer()
             findViewById<ShimmerFrameLayout>(R.id.shimmer_view_container).visibility = View.GONE
-            findViewById<TextView>(R.id.text).visibility = View.GONE
+            findViewById<TextView>(R.id.text).visibility = View.VISIBLE
 
         }, 5000)
     }
